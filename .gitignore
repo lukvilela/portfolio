@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.pem
+.env*
+!.env.example
+npm-debug.log*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
+
+# material de posts (nao faz parte do site)
+_post-assets/
