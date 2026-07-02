@@ -6,6 +6,28 @@ import RevealText from "@/components/RevealText";
 
 const FEATURED = [
   {
+    name: "E-commerce Analytics BR",
+    file: "ecommerce_analytics.ipynb",
+    description:
+      "Projeto end-to-end de dados sobre o e-commerce Olist: ETL em Python, análise exploratória (pandas/seaborn), dashboard em Streamlit e modelagem em Power BI (DAX).",
+    repo: "https://github.com/lukvilela/ecommerce-analytics-br",
+    live: null,
+    stack: "Python · pandas · Streamlit · Power BI",
+    tag: "Dados",
+    span: "md:col-span-3",
+  },
+  {
+    name: "Industrial Ops Analytics",
+    file: "industrial_ops.ipynb",
+    description:
+      "Confiabilidade e manutenção preditiva industrial: ETL, EDA e modelo de previsão de falha (scikit-learn, AUC 0.97), com dashboard e simulador de risco.",
+    repo: "https://github.com/lukvilela/industrial-ops-analytics",
+    live: null,
+    stack: "Python · scikit-learn · ML",
+    tag: "Dados / ML",
+    span: "md:col-span-3",
+  },
+  {
     name: "Ritmo",
     file: "ritmo.tsx",
     description:
@@ -69,6 +91,17 @@ const FEATURED = [
     live: "https://command-center-ashy-theta.vercel.app",
     stack: "JavaScript · HTML/CSS · Netlify Functions",
     tag: "Ferramenta",
+    span: "md:col-span-3",
+  },
+  {
+    name: "Violino Dojo",
+    file: "violino_dojo.tsx",
+    description:
+      "Treinador de violino no navegador: leitura de partitura (VexFlow), afinador por microfone (pitchy), XP com repetição espaçada (SRS) e níveis Suzuki.",
+    repo: "https://github.com/lukvilela/violino-dojo",
+    live: null,
+    stack: "Next.js · Tailwind · Framer Motion",
+    tag: "App",
     span: "md:col-span-3",
   },
 ];
